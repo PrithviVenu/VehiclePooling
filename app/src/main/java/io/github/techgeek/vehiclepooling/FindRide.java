@@ -31,6 +31,12 @@ public class FindRide extends AppCompatActivity {
                 R.id.textView3);
         quantityTextView.setText("" + numberOfCoffees);
     }
+    public void efg(View v) {
+        Intent myIntent = new Intent(this, RideMatchActivity.class);
+        startActivity(myIntent);
+
+    }
+
     protected void next(View v) {
         Intent myIntent = new Intent(this, CustomerSettingsActivity.class);
         startActivity(myIntent);

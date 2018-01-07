@@ -17,4 +17,10 @@ public class OfferRide extends AppCompatActivity {
         startActivity(myIntent);
 
     }
+    public void abc(View v) {
+        Intent myIntent = new Intent(this, RideMatchActivity.class);
+        startActivity(myIntent);
+
+    }
+
 }

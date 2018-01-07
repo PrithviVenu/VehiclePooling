@@ -12,15 +12,15 @@ public class RideMatchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ride_match);
     }
-    protected void bu1(View view) {
+    public void bu1(View view) {
         Toast toast = Toast.makeText(this, "Booking confirmed", Toast.LENGTH_LONG);
         toast.show();
     }
-    protected void bu2(View view) {
+    public void bu2(View view) {
         Toast toast = Toast.makeText(this, "Booking confirmed", Toast.LENGTH_LONG);
         toast.show();
     }
-    protected void bu3(View view) {
+    public void bu3(View view) {
         Toast toast = Toast.makeText(this, "Booking confirmed", Toast.LENGTH_LONG);
         toast.show();
     }

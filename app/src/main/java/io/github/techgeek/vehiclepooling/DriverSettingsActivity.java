@@ -150,7 +150,7 @@ public class DriverSettingsActivity extends AppCompatActivity {
             }
         });
     }
-    protected void confirm(View v) {
+    public void confirm(View v) {
         Intent myIntent = new Intent(this, RideMatchActivity.class);
         startActivity(myIntent);
 
