@@ -19,7 +19,8 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".OfferRide" />
-        <activity android:name=".FindRide"></activity>
+        <activity android:name=".FindRide" />
+        <activity android:name=".CustomerSettingsActivity"></activity>
     </application>
 
 </manifest>

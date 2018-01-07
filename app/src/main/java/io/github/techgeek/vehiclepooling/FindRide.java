@@ -1,5 +1,6 @@
 package io.github.techgeek.vehiclepooling;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -29,5 +30,10 @@ public class FindRide extends AppCompatActivity {
         TextView quantityTextView = (TextView) findViewById(
                 R.id.textView3);
         quantityTextView.setText("" + numberOfCoffees);
+    }
+    protected void next(View v) {
+        Intent myIntent = new Intent(this, CustomerSettingsActivity.class);
+        startActivity(myIntent);
+
     }
 }
