@@ -21,7 +21,8 @@
         <activity android:name=".OfferRide" />
         <activity android:name=".FindRide" />
         <activity android:name=".CustomerSettingsActivity" />
-        <activity android:name=".DriverSettingsActivity"></activity>
+        <activity android:name=".DriverSettingsActivity" />
+        <activity android:name=".RideMatchActivity"></activity>
     </application>
 
 </manifest>

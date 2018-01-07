@@ -61,7 +61,8 @@ android:padding="20sp">
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:id="@+id/confirm"
-    android:text="confirm"/>
+    android:text="confirm"
+    android:onClick="confirm"/>
 <Button
     android:layout_width="match_parent"
     android:layout_height="wrap_content"

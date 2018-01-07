@@ -97,6 +97,11 @@ public class CustomerSettingsActivity extends AppCompatActivity {
         });
 
     }
+    protected void confirmed(View v) {
+        Intent myIntent = new Intent(this, RideMatchActivity.class);
+        startActivity(myIntent);
+
+    }
 
     private void getUserInfo() {
         mCustomerDatabase.addValueEventListener(new ValueEventListener() {

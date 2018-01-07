@@ -104,6 +104,8 @@ public class DriverSettingsActivity extends AppCompatActivity {
         });
     }
 
+
+
     private void getUserInfo() {
         mDriverDatabase.addValueEventListener(new ValueEventListener() {
             @Override
@@ -148,7 +150,11 @@ public class DriverSettingsActivity extends AppCompatActivity {
             }
         });
     }
+    protected void confirm(View v) {
+        Intent myIntent = new Intent(this, RideMatchActivity.class);
+        startActivity(myIntent);
 
+    }
 
     private void saveUserInformation() {
         mName = mNameField.getText().toString();
