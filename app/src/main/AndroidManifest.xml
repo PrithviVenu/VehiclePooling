@@ -20,7 +20,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".OfferRide" />
         <activity android:name=".FindRide" />
-        <activity android:name=".CustomerSettingsActivity"></activity>
+        <activity android:name=".CustomerSettingsActivity" />
+        <activity android:name=".DriverSettingsActivity"></activity>
     </application>
 
 </manifest>

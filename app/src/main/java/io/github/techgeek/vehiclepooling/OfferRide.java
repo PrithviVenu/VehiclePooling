@@ -13,7 +13,7 @@ public class OfferRide extends AppCompatActivity {
         setContentView(R.layout.activity_offer_ride);
     }
     protected void next(View v) {
-        Intent myIntent = new Intent(this, CustomerSettingsActivity.class);
+        Intent myIntent = new Intent(this, DriverSettingsActivity.class);
         startActivity(myIntent);
 
     }
